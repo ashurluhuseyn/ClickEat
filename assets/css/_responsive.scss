@@ -1,0 +1,41 @@
+@media screen and (max-width:576px){
+    .container{
+        padding: 0 16px;
+    }
+    header{
+        .logo{
+            img{
+                width: 117px;
+                height: 28px;
+            }
+        }
+        .header-actions{
+            ul{
+                gap: 8px !important;
+                li{
+                    display: none !important;
+                    &:nth-child(2){
+                        display: flex !important;
+                    }
+                    &:nth-child(5){
+                        display: flex !important;
+                    }
+                }
+            }
+        }
+    }
+    .home-page{
+        .main-left{
+            display: none;
+        }
+        .main-products{
+            width: 100% !important;
+            &__top{
+                display: none !important;
+            }
+        }
+    }
+    .product-item{
+        width: 100% !important;
+    }
+}
