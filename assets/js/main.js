@@ -42,7 +42,6 @@ function updateRangeValues() {
 }
 
 
-
 var modal = document.getElementById("myModal");
 var btn = document.querySelector(".terms-link");
 var span = document.getElementsByClassName("close")[0];
@@ -73,4 +72,19 @@ for(let tablink of modal_tabLinks) {
         active.classList.remove('modal-tab-active')
         this.classList.add('modal-tab-active')
     }
+}
+
+
+
+// Sidebar actions
+const menu_icon = document.querySelector('.menu-icon')
+const mobile_sidebar = document.querySelector('.mobile-sidebar')
+const mobile_sidebar_close_icon = document.querySelector('.sidebar-close-icon')
+
+
+menu_icon.onclick = function() {
+    mobile_sidebar.classList.add('mobile-sidebar-active')
+}
+mobile_sidebar_close_icon.onclick = function() {
+    mobile_sidebar.classList.remove('mobile-sidebar-active')
 }
