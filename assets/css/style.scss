@@ -368,6 +368,27 @@ main{
 }
 
 .product-item{
+    transition: all 0.3s ease;
+    position: relative;
+    &:hover{
+        box-shadow: 0px 4px 16.9px 0px #0000001F;
+        padding: 12px;
+        position: relative;
+        
+        .product-item__info{
+            .price-ul{
+                li{
+                    display: block;
+                    .product-price{
+                        font-size: 14px;
+                        span{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
     &__image{
         background-color: #EFEFEF;
         height: 262px;
@@ -375,6 +396,21 @@ main{
         align-items: center;
         justify-content: center;
         position: relative;
+        &__new-discount{
+            position: absolute;
+            top: 8px;
+            left: 8px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            span{
+                background-color: #000;
+                color: #fff;
+                font-size: 12px;
+                font-weight: 400;
+                padding: 4px 10px;
+            }
+        }
         .product-main-image{
             width: 180px;
             height: 180px;
@@ -393,6 +429,11 @@ main{
         justify-content: space-between;
         align-items: flex-end;
         margin-top: 16px;
+        transition: .3s;
+        position: relative;
+        background-color: #fff;
+        width: 100%;
+        z-index: 2121212;
         .title{
             display: flex;
             flex-direction: column;
@@ -407,14 +448,24 @@ main{
                 font-weight: 400;
                 color: #C2BDBD;
             }
-            .product-price{
-                margin-top: 6px;
-                font-size: 20px;
-                color: #C2BDBD;
-                span{
-                    color: #000000;
-                    font-size: 20px;
+            .price-ul{
+                li{
+                    display: none;
+                    .product-price{
+                        margin-top: 6px;
+                        font-size: 20px;
+                        color: #C2BDBD;
+                        span{
+                            color: #000000;
+                            font-size: 20px;
+                        }
+                    }
+                    
                 }
+                .active-li{
+                    display: block;
+                }
+
             }
         }
         .taksit{

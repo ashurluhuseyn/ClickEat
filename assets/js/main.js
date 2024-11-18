@@ -40,3 +40,37 @@ function updateRangeValues() {
     document.getElementById('min-value').textContent = minValue + " AZN";
     document.getElementById('max-value').textContent = maxValue + " AZN";
 }
+
+
+
+var modal = document.getElementById("myModal");
+var btn = document.querySelector(".terms-link");
+var span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+
+// Terms modal tabmenu
+const modal_tabLinks = document.querySelectorAll('.modal-tablinks button')
+
+
+for(let tablink of modal_tabLinks) {
+    tablink.onclick = function() {
+        let active = document.querySelector('.modal-tab-active')
+        active.classList.remove('modal-tab-active')
+        this.classList.add('modal-tab-active')
+    }
+}

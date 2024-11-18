@@ -1,6 +1,14 @@
-@media screen and (max-width:576px){
+@media screen and (max-width:768px){
     .container{
         padding: 0 16px;
+    }
+    .modal-content{
+        width: 95% !important;
+        .modal-tablinks{
+            button{
+                padding: 10px 8px !important;
+            }
+        }
     }
     header{
         .logo{
@@ -37,5 +45,26 @@
     }
     .product-item{
         width: 100% !important;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    .product-item{
+        width: 49% !important;
+    }
+}
+
+
+@media screen and (min-width:576px) and (max-width:1400px) {
+    .container {
+        padding: 0 24px;
+    }
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .product-item{
+        width: 49% !important;
     }
 }

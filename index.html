@@ -150,7 +150,7 @@
                                 <img src="assets/images/gift_card.svg" alt="filter icon">
                                 <span>Hədiyyə kartı</span>
                             </li>
-                            <li>
+                            <li class="terms-link">
                                 <img src="assets/images/terms.svg" alt="filter icon">
                                 <span>Qaydalar</span>
                             </li>
@@ -340,6 +340,10 @@
                     <div class="main-products__list">
                         <div class="product-item">
                             <div class="product-item__image">
+                                <div class="product-item__image__new-discount">
+                                    <span>Yeni</span>
+                                    <span>-30%</span>
+                                </div>
                                 <div class="product-item__image__actions">
                                     <img src="assets/images/share.svg" alt="">
                                     <img src="assets/images/product-card-wishlist.svg" alt="">
@@ -382,7 +386,17 @@
                                     <h1>My Burberry</h1>
                                     <span>Burberry</span>
                                     <span>Kişi üçün | Eau De Parfum</span>
-                                    <span class="product-price">50 ml / <span>96.00 ₼ </span></span>
+                                    <ul class="price-ul">
+                                        <li class="active-li">
+                                            <span class="product-price">50 ml / <span>96.00 ₼ </span></span>
+                                        </li>
+                                        <li>
+                                            <span class="product-price">50 ml / <span>96.00 ₼ </span></span>
+                                        </li>
+                                        <li>
+                                            <span class="product-price">50 ml / <span>96.00 ₼ </span></span>
+                                        </li>
+                                    </ul>
                                 </div>
                                 <div class="taksit">
                                     <ul class="months">
@@ -604,6 +618,53 @@
             </div>
         </div>
     </main>
+
+
+    <!-- Terms Modal -->
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <p>Qaydalar</p>
+          </div>
+          <div class="modal-body">
+            <div class="modal-tablinks">
+                <button data-id="1" class="modal-tab-active">Necə sifariş edim</button>
+                <button data-id="2">Hissə-hissə ödəniş qaydaları</button>
+                <button data-id="3">Bonus pul nədir?</button>
+            </div>
+            <div class="modal-tabcontents">
+                <div class="tabcontent" id="1">
+                    <div class="shipping">
+                        <h1>Çatdırılma</h1>
+                        <p><strong>Bakı şəhər daxili</strong> çatdırılma ödənişsizdir.</p>
+                        <p>Ünvandan asılı olaraq çatdırılma zamanı 30 dəqiqədən 2 saata qədər dəyişə bilər.</p>
+                        <p><strong>Ölkə daxili rayonlara</strong> və <strong>şəhərlərə</strong> çatdırılma ödənişlidir (10 AZN).</p>
+                    </div>
+                    <div class="payment-types">
+                        <h1>Ödəniş üsulları:</h1>
+                        <ol>
+                            <li>Bank kartı olmadan hissə-hissə ödəniş imkanı.</li>
+                            <li>Qapıda nağd və ya kartla ödəniş;</li>
+                            <li>Saytımızdan onlayn olaraq bank kartı  ilə ödəniş;</li>
+                            <li>Birbank taksit kart ilə 2, 3 və ya 6 aylıq faizsiz ödəniş imkanı;</li>
+                            <li>M10 elektron pulqabı ilə</li>
+                        </ol>
+                    </div>
+                    <div class="modal-footer">
+                        <p>24 ilin təcrübəsi ilə daim xidmətinizdəyik!</p>
+                    </div>
+                </div>
+                <div class="tabcontent" id="2"></div>
+                <div class="tabcontent" id="3"></div>
+            </div>
+        </div>
+        </div>
+      </div>
+
+    <!-- Terms Modal -->
+
    
 
     <script src="assets/js/main.js"></script>
