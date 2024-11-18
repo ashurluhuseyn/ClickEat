@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "title": "Margherita Pizza",
+      "categoryID": 1,
+      "image": "https://png.pngtree.com/png-clipart/20230912/original/pngtree-top-view-of-pizza-margherita-delicious-picture-image_13032122.png",
+      "price": 8.50
+    },
+    {
+      "id": 2,
+      "title": "Pepperoni Pizza",
+      "categoryID": 1,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfyaFqzzCsaF30YZ7NmAtGUOHgqlDrqgMM0g&s",
+      "price": 9.50
+    },
+    {
+      "id": 3,
+      "title": "Caesar Saltitle",
+      "categoryID": 2,
+      "image": "https://static.vecteezy.com/system/resources/previews/017/394/944/non_2x/caesar-salad-with-chicken-on-a-white-plate-illustration-generative-ai-png.png",
+      "price": 6.00
+    },
+    {
+      "id": 4,
+      "title": "Chicken Burger",
+      "categoryID": 3,
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/032/325/117/small_2x/fried-chicken-burger-isolated-on-transparent-background-file-cut-out-ai-generated-png.png",
+      "price": 7.00
+    },
+    {
+      "id": 5,
+      "title": "Double Cheeseburger",
+      "categoryID": 3,
+      "image": "https://freepngimg.com/save/159187-burger-double-cheese-free-png-hq/700x487",
+      "price": 8.50
+    },
+    {
+      "id": 6,
+      "title": "Minestrone Soup",
+      "categoryID": 4,
+      "image": "https://www.freeiconspng.com/thumbs/soup-png/meat-soup-png-7.png",
+      "price": 5.50
+    },
+    {
+      "id": 7,
+      "title": "Grilled Salmon",
+      "categoryID": 5,
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/035/675/740/small_2x/ai-generated-grilled-salmon-free-png.png",
+      "price": 12.00
+    },
+    {
+      "id": 8,
+      "title": "Tiramisu",
+      "categoryID": 6,
+      "image": "https://png.pngtree.com/png-vector/20230902/ourmid/pngtree-tiramisu-cake-isolated-png-image_9242463.png",
+      "price": 4.50
+    },
+    {
+      "id": 9,
+      "title": "Lemontitlee",
+      "categoryID": 7,
+      "image": "https://png.pngtree.com/png-clipart/20230912/original/pngtree-top-view-of-pizza-margherita-delicious-picture-image_13032122.png",
+      "price": 2.50
+    },
+    {
+      "id": 10,
+      "title": "Espresso",
+      "categoryID": 7,
+      "image": "https://png.pngtree.com/png-clipart/20230912/original/pngtree-top-view-of-pizza-margherita-delicious-picture-image_13032122.png",
+      "price": 1.50
+    }
+  ]
+  
